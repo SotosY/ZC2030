@@ -1,4 +1,4 @@
 {
-  "baseUrl": "http://localhost:3000",
+  "baseUrl": "https://zc2030-zc2030.vercel.app/",
   "chromeWebSecurity": false
 }
