@@ -72,7 +72,7 @@ const CalculatorCategory = (data) => {
       for (let i = 0; i < categoryData.data.length; i++) {
         await saveInputs(categoryData.data[i].id, i, type);
       }
-      await router.replace("https://zc2030-zc2030.vercel.app/admin/showCalculators");
+      await router.replace("https://zc2030.vercel.app/admin/showCalculators");
       setShowModal(false);
     }
   }
