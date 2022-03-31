@@ -12,7 +12,7 @@ use(Web3ClientPlugin);
 //Setting up MaticJS
 const posClient = new POSClient();
 const parentRPC = "https://rpc-mumbai.maticvigil.com/"; //Matic chain
-const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = "raise dash analyst scale despair repair quote coil rather frame swear just"
 const devWallet = "0x427897086E5Ac14561a7559B694617EaF5e0c1d8"
 posClient.init({
   network: "testnet",

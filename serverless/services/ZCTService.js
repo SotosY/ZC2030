@@ -11,7 +11,7 @@ const childRPC = 'https://rpc-mumbai.maticvigil.com/'
 // https://polygon-mumbai.infura.io/v3/579ec05cfce44d31854d6f693d5fa907
 // const childRPC =
 //     "wss://ropsten.infura.io/ws/v3/579ec05cfce44d31854d6f693d5fa907";
-const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = "raise dash analyst scale despair repair quote coil rather frame swear just"
 const devWallet="0x427897086E5Ac14561a7559B694617EaF5e0c1d8"
 const web3 = new Web3(
     new HDWalletProvider({
